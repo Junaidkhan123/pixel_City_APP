@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392015311F8F71A0005AF3B1 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392015301F8F71A0005AF3B1 /* PopVC.swift */; };
 		392CA3651F83668E0000D554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392CA3641F83668E0000D554 /* AppDelegate.swift */; };
-		392CA3671F83668E0000D554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392CA3661F83668E0000D554 /* ViewController.swift */; };
+		392CA3671F83668E0000D554 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392CA3661F83668E0000D554 /* MapVC.swift */; };
 		392CA36A1F83668E0000D554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392CA3681F83668E0000D554 /* Main.storyboard */; };
 		392CA36C1F83668E0000D554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392CA36B1F83668E0000D554 /* Assets.xcassets */; };
 		392CA36F1F83668E0000D554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392CA36D1F83668E0000D554 /* LaunchScreen.storyboard */; };
+		392F3B671F8A1E7D005B27A3 /* TouchAblleDropPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392F3B661F8A1E7D005B27A3 /* TouchAblleDropPin.swift */; };
+		3967D8571F8CBDDC007CCB41 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967D8561F8CBDDC007CCB41 /* Constants.swift */; };
+		39ECEAEC1F8B01C900BE3715 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ECEAEB1F8B01C900BE3715 /* PhotoCell.swift */; };
+		D32D48EBA34AFA2C46273B24 /* Pods_MapPixelApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4758106770A3B0D799A1928 /* Pods_MapPixelApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		392015301F8F71A0005AF3B1 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
 		392CA3611F83668E0000D554 /* MapPixelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapPixelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		392CA3641F83668E0000D554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		392CA3661F83668E0000D554 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		392CA3661F83668E0000D554 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		392CA3691F83668E0000D554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		392CA36B1F83668E0000D554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		392CA36E1F83668E0000D554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		392CA3701F83668E0000D554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392F3B661F8A1E7D005B27A3 /* TouchAblleDropPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchAblleDropPin.swift; sourceTree = "<group>"; };
+		3967D8561F8CBDDC007CCB41 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		39ECEAEB1F8B01C900BE3715 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		8022960F897D38EA048ED6DD /* Pods-MapPixelApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapPixelApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapPixelApp/Pods-MapPixelApp.release.xcconfig"; sourceTree = "<group>"; };
+		A759DCAF1F3770E7FA039F19 /* Pods-MapPixelApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapPixelApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapPixelApp/Pods-MapPixelApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D4758106770A3B0D799A1928 /* Pods_MapPixelApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapPixelApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32D48EBA34AFA2C46273B24 /* Pods_MapPixelApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				392CA3631F83668E0000D554 /* MapPixelApp */,
 				392CA3621F83668E0000D554 /* Products */,
+				EA5BF2F1B4901AEC40E862C0 /* Pods */,
+				E1CAB9354F34CB98EA4E4E7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,83 @@
 		392CA3631F83668E0000D554 /* MapPixelApp */ = {
 			isa = PBXGroup;
 			children = (
-				392CA3641F83668E0000D554 /* AppDelegate.swift */,
-				392CA3661F83668E0000D554 /* ViewController.swift */,
-				392CA3681F83668E0000D554 /* Main.storyboard */,
+				392CA37B1F8368200000D554 /* others */,
+				392CA37A1F8368190000D554 /* Extesnions */,
+				392CA3791F83680F0000D554 /* Utiltiies */,
+				392CA3781F83680A0000D554 /* Model */,
+				392CA3771F8367FB0000D554 /* view */,
+				392CA3761F8367EE0000D554 /* Controller */,
 				392CA36B1F83668E0000D554 /* Assets.xcassets */,
-				392CA36D1F83668E0000D554 /* LaunchScreen.storyboard */,
 				392CA3701F83668E0000D554 /* Info.plist */,
 			);
 			path = MapPixelApp;
+			sourceTree = "<group>";
+		};
+		392CA3761F8367EE0000D554 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				392CA3661F83668E0000D554 /* MapVC.swift */,
+				392015301F8F71A0005AF3B1 /* PopVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		392CA3771F8367FB0000D554 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				392F3B661F8A1E7D005B27A3 /* TouchAblleDropPin.swift */,
+				39ECEAEB1F8B01C900BE3715 /* PhotoCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		392CA3781F83680A0000D554 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		392CA3791F83680F0000D554 /* Utiltiies */ = {
+			isa = PBXGroup;
+			children = (
+				3967D8561F8CBDDC007CCB41 /* Constants.swift */,
+			);
+			path = Utiltiies;
+			sourceTree = "<group>";
+		};
+		392CA37A1F8368190000D554 /* Extesnions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extesnions;
+			sourceTree = "<group>";
+		};
+		392CA37B1F8368200000D554 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				392CA3641F83668E0000D554 /* AppDelegate.swift */,
+				392CA3681F83668E0000D554 /* Main.storyboard */,
+				392CA36D1F83668E0000D554 /* LaunchScreen.storyboard */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		E1CAB9354F34CB98EA4E4E7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4758106770A3B0D799A1928 /* Pods_MapPixelApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA5BF2F1B4901AEC40E862C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A759DCAF1F3770E7FA039F19 /* Pods-MapPixelApp.debug.xcconfig */,
+				8022960F897D38EA048ED6DD /* Pods-MapPixelApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 392CA3731F83668E0000D554 /* Build configuration list for PBXNativeTarget "MapPixelApp" */;
 			buildPhases = (
+				36F5E45EABE3B83217654B91 /* [CP] Check Pods Manifest.lock */,
 				392CA35D1F83668E0000D554 /* Sources */,
 				392CA35E1F83668E0000D554 /* Frameworks */,
 				392CA35F1F83668E0000D554 /* Resources */,
+				03A6B9E9A4C0C22489C3684D /* [CP] Embed Pods Frameworks */,
+				856EDAAEEDBD89CFA11E6C83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +218,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03A6B9E9A4C0C22489C3684D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapPixelApp/Pods-MapPixelApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapPixelApp/Pods-MapPixelApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36F5E45EABE3B83217654B91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapPixelApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		856EDAAEEDBD89CFA11E6C83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapPixelApp/Pods-MapPixelApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		392CA35D1F83668E0000D554 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				392CA3671F83668E0000D554 /* ViewController.swift in Sources */,
+				392015311F8F71A0005AF3B1 /* PopVC.swift in Sources */,
+				3967D8571F8CBDDC007CCB41 /* Constants.swift in Sources */,
+				39ECEAEC1F8B01C900BE3715 /* PhotoCell.swift in Sources */,
+				392F3B671F8A1E7D005B27A3 /* TouchAblleDropPin.swift in Sources */,
+				392CA3671F83668E0000D554 /* MapVC.swift in Sources */,
 				392CA3651F83668E0000D554 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +419,7 @@
 		};
 		392CA3741F83668E0000D554 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A759DCAF1F3770E7FA039F19 /* Pods-MapPixelApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +435,7 @@
 		};
 		392CA3751F83668E0000D554 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8022960F897D38EA048ED6DD /* Pods-MapPixelApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

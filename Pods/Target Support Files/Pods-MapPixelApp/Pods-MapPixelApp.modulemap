@@ -1,0 +1,6 @@
+framework module Pods_MapPixelApp {
+  umbrella header "Pods-MapPixelApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
